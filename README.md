@@ -1,6 +1,6 @@
 # JWKS server
 
-A minimal server built to just host a single JWKS file on a static route
+A minimal server built to just host a single JWKS file on a static route for testing purposes
 
 # How to use
 
