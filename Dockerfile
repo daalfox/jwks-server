@@ -10,7 +10,7 @@ COPY src ./src
 RUN cargo build --release
 
 # runtime stage
-FROM alpine:3.19
+FROM gcr.io/distroless/cc
 WORKDIR /app
 
 COPY --from=builder /app/target/release/jwks-server /jwks-server
